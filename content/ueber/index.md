@@ -32,5 +32,5 @@ diesem Weg lerne, darüber schreibe ich in diesem Blog.
 
 Die „Liebe zur Weisheit“ begleitet mich seit meiner Schulzeit. Vor über 20 Jahren habe 
 ich ein Philosophiestudium begonnen, dann aber einen anderen Weg eingeschlagen. Heute 
-arbeite ich im Kommunikationsbereich.
+arbeite ich im IT-Bereich.
 
