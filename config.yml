@@ -1,0 +1,102 @@
+baseURL: "https://einfachstoisch.at/"
+title: Einfach stoisch
+languageCode: "de-at"
+DefaultContentLanguage: "de-at"
+theme: PaperMod
+copyright: "© 2025 Thomas Mitzka"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Thomas Mitzka
+  description: "Besser leben mit stoischer Philosophie"
+  keywords: [Blog, PaperMod, Philosophy, Stoicism]
+  author: Thomas Mitzka
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "2. January 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  author: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    disableHLJS: true # to disable highlight.js
+    disableFingerprinting: true
+    favicon: "/images/favicon.ico"
+    favicon16x16: "/images/favicon-16x16.png"
+    favicon32x32: "/images/favicon-32x32.png"
+    apple_touch_icon: "/images/apple-touch-icon.png"
+    # safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Einfach stoisch"
+    icon: "/images/apple-touch-icon.png"
+    iconHeight: 35
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Einfach stoisch"
+    Content: |
+
+      Gelassen bleiben durch Philosophie
+
+      ---
+      
+      {{< figure src="/images/saeulenkatze.webp" alt="Katze liegt entspannt auf einer antik wirkenden Säule" width="130" class="float-right" >}}
+      
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+menu:
+  main:
+    - identifier: about
+      name: "Über dieses Blog"
+      url: /ueber/
+      weight: 5
+    # - identifier: archives
+      # name: "Archiv"
+      # url: /archives/
+      # weight: 8
+    - identifier: tags
+      name: "Schlagworte"
+      url: /tags/
+      weight: 10
+    - identifier: categories
+      name: "Kategorien"
+      url: /categories/
+      weight: 20
+    - identifier: 
+      name: "Impressum"
+      url: /impressum/
+      weight: 30

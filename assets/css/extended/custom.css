@@ -1,0 +1,107 @@
+/* Standard-Variablen (Light-Mode) */
+:root {
+  --link-color: #639763;
+  --link-hover-color: #4f7e4f;
+}
+
+/* Schriftart "Alegreya" für Fließtext */
+@font-face {
+  font-family: "Alegreya";
+  src: url("/fonts/Alegreya-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Alegreya";
+  src: url("/fonts/Alegreya-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Alegreya";
+  src: url("/fonts/Alegreya-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Schriftart "Alegreya Sans" für Nav-Links und kleine Texte */
+@font-face {
+  font-family: "Alegreya Sans";
+  src: url("/fonts/AlegreyaSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Fließtext */
+body, p {
+  font-family: "Alegreya", serif !important;
+  font-weight: 400;
+  line-height: 1.65;
+  font-size: 1.35rem;
+}
+
+/* Überschriften */
+h1.post-title, .page-header h1 {
+  font-size: clamp(1.7rem, 1.4rem + 1.5vw, 2.1rem);
+}
+
+.post-content h2 {
+  font-size: clamp(1.5rem, 1.3rem + 1vw, 1.8rem);
+}
+
+.post-content h3 {
+  font-size: clamp(1.2rem, 1.1rem + 0.6vw, 1.4rem);
+}
+
+/* Nav-Links, Metadaten */
+#menu li a { font-size: 1.2rem; font-family: "Alegreya Sans"; }
+.entry-footer span, .post-meta span, .footer span { font-size: 1.1rem; font-family: "Alegreya Sans" }
+
+/* Tags */
+.post-tags li a, .terms-tags li a { font-family: "Alegreya Sans"; }
+
+/* Archive */
+.archive-entry-title { font-size: 1.3rem; }
+.archive-meta span { font-size: 1.1rem; font-family: "Alegreya Sans" }
+
+/* Links anwenden */
+.logo a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.logo a:hover {
+  color: var(--link-hover-color);
+}
+
+/* Rechtsbündiges Bild */
+figure.float-right {
+  float: right;
+  margin: 0 0 1rem 1rem;
+  width: 30%;
+  max-width: 300px;
+}
+
+figure.float-right img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Mobile: Bild über dem Text */
+@media (max-width: 768px) {
+  figure.float-right {
+    float: none;
+    display: block;
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 100%;
+  }
+}
