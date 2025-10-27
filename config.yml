@@ -86,14 +86,14 @@ menu:
       # name: "Archiv"
       # url: /archives/
       # weight: 8
-    - identifier: tags
-      name: "Schlagworte"
-      url: /tags/
-      weight: 10
-    - identifier: categories
-      name: "Kategorien"
-      url: /categories/
-      weight: 20
+    # - identifier: tags
+      # name: "Schlagworte"
+      # url: /tags/
+      # weight: 10
+    # - identifier: categories
+      # name: "Kategorien"
+      # url: /categories/
+      # weight: 20
     - identifier: 
       name: "Impressum"
       url: /impressum/
