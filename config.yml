@@ -23,10 +23,10 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Thomas Mitzka
-  description: "Besser leben mit stoischer Philosophie"
-  keywords: [Blog, PaperMod, Philosophy, Stoicism]
+  description: "Gelassen bleiben durch Philosophie"
+  keywords: [Blog, Philosophie, Stoizismus]
   author: Thomas Mitzka
-  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["/images/saeulenkatze.webp"] # image for opengraph
   DateFormat: "2. January 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -43,7 +43,7 @@ params:
   disableScrollToTop: false
   comments: false
   hidemeta: false
-  author: false
+  hideauthor: true
   hideSummary: false
   showtoc: false
   tocopen: false
@@ -68,10 +68,8 @@ params:
     Content: |
 
       Gelassen bleiben durch Philosophie
-
-      ---
       
-      {{< figure src="/images/saeulenkatze.webp" alt="Katze liegt entspannt auf einer antik wirkenden Säule" width="130" class="float-right" >}}
+      {{< figure src="/images/saeulenkatze.webp" alt="Katze liegt entspannt auf einer antik wirkenden Säule" width="130" class="logo-img" >}}
       
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -81,7 +79,7 @@ params:
 menu:
   main:
     - identifier: about
-      name: "Über dieses Blog"
+      name: "Über"
       url: /ueber/
       weight: 5
     # - identifier: archives
