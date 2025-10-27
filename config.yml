@@ -3,7 +3,6 @@ title: Einfach stoisch
 languageCode: "de-at"
 DefaultContentLanguage: "de-at"
 theme: PaperMod
-copyright: "© 2025 Thomas Mitzka"
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -47,6 +46,9 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
+
+  footer:
+    hideCopyright: true
 
   assets:
     disableHLJS: true # to disable highlight.js
