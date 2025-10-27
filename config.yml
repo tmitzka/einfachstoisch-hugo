@@ -26,7 +26,7 @@ params:
   description: "Gelassen bleiben durch Philosophie"
   keywords: [Blog, Philosophie, Stoizismus]
   author: Thomas Mitzka
-  images: ["/images/saeulenkatze.webp"] # image for opengraph
+  images: ["/images/pillar-cat.webp"] # image for opengraph
   DateFormat: "2. January 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -69,7 +69,7 @@ params:
 
       Gelassen bleiben durch Philosophie
       
-      {{< figure src="/images/saeulenkatze.webp" alt="Katze liegt entspannt auf einer antik wirkenden Säule" width="130" class="logo-img" >}}
+      {{< figure src="/images/pillar-cat.webp" alt="Katze liegt entspannt auf einer antik wirkenden Säule" class="logo-img" >}}
       
   cover:
     hidden: true # hide everywhere but not in structured data
