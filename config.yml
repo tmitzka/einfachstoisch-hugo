@@ -50,7 +50,7 @@ params:
 
   assets:
     disableHLJS: true # to disable highlight.js
-    disableFingerprinting: true
+    disableFingerprinting: false
     favicon: "/images/favicon.ico"
     favicon16x16: "/images/favicon-16x16.png"
     favicon32x32: "/images/favicon-32x32.png"
@@ -69,7 +69,8 @@ params:
 
       Gelassen bleiben durch Philosophie
       
-      {{< figure src="/images/pillar-cat.webp" alt="Katze liegt entspannt auf einer antik wirkenden Säule" class="logo-img" >}}
+      {{< figure src="/images/pillar-cat.webp" alt="Katze liegt entspannt auf einer antik wirkenden Säule" loading="lazy" width="270" height="274" class="logo-img" >}}
+
       
   cover:
     hidden: true # hide everywhere but not in structured data
