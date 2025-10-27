@@ -1,6 +1,7 @@
 ---
-date: "2024-10-27"
+date: 2024-10-27
 title: "Kein perfekter Start"
+slug: kein-perfekter-start
 description: "Warum es dieses Blog gibt und was mich am Stoizismus fasziniert"
 tags: ["Freude", "Motivation"]
 categories: ["Blog"]
