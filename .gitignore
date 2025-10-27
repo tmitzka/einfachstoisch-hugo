@@ -2,6 +2,9 @@
 /public/
 /resources/_gen/
 
+# Hugo build lock file
+.hugo_build.lock
+
 # Hugo Cache
 /hugo_cache/
 /hugo_tmp/
@@ -22,6 +25,3 @@ Thumbs.db
 
 # Logs
 *.log
-
-# Deploy script
-deploy.sh
