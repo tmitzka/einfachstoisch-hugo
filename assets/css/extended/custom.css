@@ -1,10 +1,10 @@
-/* Standard-Variablen (Light-Mode) */
+/* Define colors */
 :root {
   --link-color: #639763;
   --link-hover-color: #4f7e4f;
 }
 
-/* Schriftart "Alegreya" für Fließtext */
+/* Define fonts */
 @font-face {
   font-family: "Alegreya";
   src: url("/fonts/Alegreya-Regular.woff2") format("woff2");
@@ -29,7 +29,6 @@
   font-display: swap;
 }
 
-/* Schriftart "Alegreya Sans" für Nav-Links und kleine Texte */
 @font-face {
   font-family: "Alegreya Sans";
   src: url("/fonts/AlegreyaSans-Regular.woff2") format("woff2");
@@ -38,39 +37,32 @@
   font-display: swap;
 }
 
-/* Fließtext */
+/* Text */
 body, p {
   font-family: "Alegreya", serif !important;
   font-weight: 400;
-  line-height: 1.65;
-  font-size: 1.35rem;
+  line-height: 1.75;
+  font-size: 1.3rem;
 }
 
-/* Überschriften */
-h1.post-title, .page-header h1 {
-  font-size: clamp(1.7rem, 1.4rem + 1.5vw, 2.1rem);
-}
+/* Headings */
+h1.post-title, .page-header h1 { font-size: clamp(1.7rem, 1.4rem + 1.5vw, 2.1rem); }
+.post-content h2 { font-size: clamp(1.5rem, 1.3rem + 1vw, 1.8rem); }
+.post-content h3 { font-size: clamp(1.2rem, 1.1rem + 0.6vw, 1.4rem); }
 
-.post-content h2 {
-  font-size: clamp(1.5rem, 1.3rem + 1vw, 1.8rem);
-}
-
-.post-content h3 {
-  font-size: clamp(1.2rem, 1.1rem + 0.6vw, 1.4rem);
-}
-
-/* Nav-Links, Metadaten */
+/* Navigation links, meta data */
 #menu li a { font-size: 1.2rem; font-family: "Alegreya Sans"; }
 .entry-footer span, .post-meta span, .footer span { font-size: 1.1rem; font-family: "Alegreya Sans" }
 
 /* Tags */
 .post-tags li a, .terms-tags li a { font-family: "Alegreya Sans"; }
+.post-tags li a { font-size: 1.1rem; }
 
 /* Archive */
 .archive-entry-title { font-size: 1.3rem; }
 .archive-meta span { font-size: 1.1rem; font-family: "Alegreya Sans" }
 
-/* Links anwenden */
+/* Color and hover effect for links */
 .logo a {
   color: var(--link-color);
   text-decoration: none;
@@ -81,7 +73,7 @@ h1.post-title, .page-header h1 {
   color: var(--link-hover-color);
 }
 
-/* Rechtsbündiges Bild */
+/* Float image to the right */
 figure.float-right {
   float: right;
   margin: 0 0 1rem 1rem;
@@ -95,7 +87,10 @@ figure.float-right img {
   border-radius: 5%;
 }
 
-/* Mobile: Bild über dem Text */
+/* Margin Logo image */
+.logo-img img { margin-top: 1rem; }
+
+/* Show image above text on mobile devices */
 @media (max-width: 768px) {
   figure.float-right {
     float: none;
