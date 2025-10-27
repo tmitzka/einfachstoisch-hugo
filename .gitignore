@@ -22,3 +22,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Deploy script
+deploy.sh
