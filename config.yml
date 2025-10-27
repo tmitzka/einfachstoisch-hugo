@@ -98,3 +98,8 @@ menu:
       name: "Impressum"
       url: /impressum/
       weight: 30
+
+permalinks:
+  posts: "/texte/:slug/" 
+  page: "/:slug/"
+  tags: "/themen/:slug/"
