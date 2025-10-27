@@ -1,9 +1,10 @@
 ---
 date: "2024-10-27"
 title: "Kein perfekter Start"
-description: ""
+description: "Warum es dieses Blog gibt und was mich am Stoizismus fasziniert"
 tags: ["Freude", "Motivation"]
 categories: ["Blog"]
+draft: false
 ---
 
 Dieses Blog wollte ich schon vor Monaten starten. Seit letztem Jahr beschäftige ich 
