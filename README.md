@@ -10,3 +10,13 @@ Source code for the Hugo-based website [einfachstoisch.at](https://einfachstoisc
 - Fonts: [Alegreya](https://github.com/huertatipografica/Alegreya) and
   [Alegreya Sans](https://github.com/huertatipografica/Alegreya-Sans)
 - Light/Dark mode support
+
+## Cloning
+
+To clone this website along with the theme, run the following commands:
+
+```
+git clone https://github.com/tmitzka/einfachstoisch-hugo.git
+cd einfachstoisch-hugo
+git submodule update --init --recursive
+```
