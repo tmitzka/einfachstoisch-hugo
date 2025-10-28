@@ -37,7 +37,7 @@
   font-display: swap;
 }
 
-/* Reduce max-width of all content */
+/* Reduce maximum width of website body */
 body {
   max-width: 90ch;
   margin-left: auto;
@@ -48,10 +48,16 @@ body {
 body, p {
   font-family: "Alegreya", serif;
   line-height: 1.75;
-  font-size: clamp(1.1rem, 1.1rem + 0.4vw, 1.28rem);
+  font-size: clamp(1.1rem, 1.1rem + 0.4vw, 1.3rem);
 }
 
-/* Reduce line length in blog entries */
+/* Text on home page and tag pages */
+.entry-content p {
+  font-size: clamp(1rem, 1rem + 0.3vw, 1.26rem);
+  line-height: 1.6;
+}
+
+/* Reduce maximum width in blog entries */
 .post-content > * {
   max-width: 60ch;
   margin-right: auto;
@@ -64,7 +70,7 @@ h1.post-title, .page-header h1 { font-size: clamp(1.7rem, 1.4rem + 1.5vw, 2.1rem
 
 /* Navigation links, meta data */
 #menu li a { font-size: 1.2rem; font-family: "Alegreya Sans"; }
-.entry-footer span, .post-meta span, .footer span { font-size: 1.1rem; font-family: "Alegreya Sans"; }
+.entry-footer span, .post-meta span, .footer span { font-size: 1.1rem; font-family: "Alegreya Sans" }
 
 /* Tags */
 .post-tags li a, .terms-tags li a { font-family: "Alegreya Sans"; }
