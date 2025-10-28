@@ -39,7 +39,7 @@ haben.
 Aber für diesen ersten Beitrag geht das schon zu weit ins Thema. Kommen wir noch zum 
 Namen: Wieso „Innere Freude“? Ursprünglich wollte ich das Blog „Innere Festung“ nennen. 
 Dieser Begriff geht auf den römischen Kaiser Marcus Aurelius zurück, dessen 
-Selbstbetrachtungen heute wahrscheinlich das bekannteste stoische Werk sind. Marcus 
+*Selbstbetrachtungen* heute wahrscheinlich das bekannteste stoische Werk sind. Marcus 
 Aurelius schreibt darin über einen Rückzug ins Innere, um mental stark zu bleiben und 
 sich vor negativen äußeren Einflüssen zu schützen. Die „innere Festung“ steht für Ruhe 
 und Selbstsicherheit.

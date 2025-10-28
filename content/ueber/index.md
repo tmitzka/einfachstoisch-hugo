@@ -9,8 +9,8 @@ du daraus etwas mitnehmen, das dir weiterhilft.
 
 Der Stoizismus ist eine über 2.000 Jahre alte Philosophie, die sehr gut in die heutige 
 Zeit passt. Die ersten Schüler der stoischen Schule haben sich in einer Säulenhalle – 
-auf Griechisch stoa – in Athen getroffen, daher der Name. Mehrere Jahrhunderte lang war 
-sie die einflussreichste Philosophie in Griechenland und Rom. Einer der Gründe dafür 
+auf Griechisch *stoa* – in Athen getroffen, daher der Name. Mehrere Jahrhunderte lang
+war sie die einflussreichste Philosophie in Griechenland und Rom. Einer der Gründe dafür 
 ist wahrscheinlich, dass sie einerseits sehr umfassend, in gewisser Weise welterklärend 
 und andererseits praktisch, also nah am Menschen ist. 
 
@@ -23,7 +23,7 @@ unerschütterlich sind, hat das wenig zu tun. Aber die Verbindung ist nicht ganz
 unbegründet. Ich selbst bin vor Jahren im Internet auf den Stoizismus gestoßen. 
 Inzwischen gibt es viele Bücher dazu. Anscheinend wirkt die Philosophie der Stoa für 
 viele Menschen interessant. Auch auf mich. Deshalb sehe ich mich inzwischen als 
-prokopton, das ist Griechisch und bezeichnet einen Schüler des Stoizismus. Was ich auf 
+*prokopton*, das ist Griechisch und bezeichnet einen Schüler des Stoizismus. Was ich auf 
 diesem Weg lerne, darüber schreibe ich in diesem Blog.
 
 {{< figure src="portrait.webp" alt="Thomas Mitzka" class="float-right" >}}
