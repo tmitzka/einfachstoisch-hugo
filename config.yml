@@ -103,6 +103,6 @@ menu:
       weight: 30
 
 permalinks:
-  posts: "/texte/:slug/" 
+  posts: "/blog/:slug/" 
   page: "/:slug/"
   tags: "/themen/:slug/"
