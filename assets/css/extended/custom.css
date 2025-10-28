@@ -37,6 +37,13 @@
   font-display: swap;
 }
 
+/* Reduce max-width of all content */
+body {
+  max-width: 90ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Basic text */
 body, p {
   font-family: "Alegreya", serif;
@@ -45,15 +52,14 @@ body, p {
   font-size: clamp(1.1rem, 1.1rem + 0.4vw, 1.25rem);
 }
 
-/* Larger text on home page */
+/* Increase font size on home page */
 .entry-content p {
   font-size: clamp(1rem, 1rem + 0.3vw, 1.15rem);
 }
 
-/* Shorter lines and centered content in blog entries */
-.post-single > * {
+/* Reduce line length in blog entries */
+.post-content > * {
   max-width: 60ch;
-  margin-left: auto;
   margin-right: auto;
 }
 
