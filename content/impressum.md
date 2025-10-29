@@ -4,10 +4,10 @@ url: "/impressum/"
 summary: Impressum
 ---
 
+**Offenlegung gemäß § 25 Mediengesetz**
+
 Medieninhaber:
 
 Thomas Mitzka  
 Wien  
 Österreich
-
-E-Mail: [tm@thomasmitzka.at](mailto:tm@thomasmitzka.at)
