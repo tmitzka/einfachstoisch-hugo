@@ -1,7 +1,10 @@
 /* Define colors */
 :root {
-  --link-color: #639763;
-  --link-hover-color: #4f7e4f;
+  --brand-color: #639763;
+  --link-color: #3b7c3b;
+  --link-hover-color: #4d9a4d;
+  --link-color-dark: #639763;
+  --link-hover-color-dark: #8bcf8b;
 }
 
 /* Define fonts */
@@ -83,18 +86,15 @@ h1.post-title, .page-header h1 { font-size: clamp(1.7rem, 1.4rem + 1.5vw, 2.1rem
 /* Hide post summary */
 .post-description { display: none; }
 
-/* Color and hover effect for logo link */
-.logo a {
-  color: var(--link-color);
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
+/* Link colors for Light and Dark Mode */
+.post-content a { transition: color 0.5s ease; color: var(--link-color); }
+.post-content a:hover { color: var(--link-hover-color); }
+body.dark .post-content a { color: var(--link-color-dark); }
+body.dark .post-content a:hover { color: var(--link-hover-color-dark); }
 
-.logo a:hover {
-  color: var(--link-hover-color);
-}
+/* Logo settings */
+.logo a { color: var(--brand-color); }
 
-/* Settings for logo image */
 .logo-img img {
   margin-top: 1rem;
   width: 130px;
