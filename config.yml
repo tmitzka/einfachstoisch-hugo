@@ -1,8 +1,8 @@
 baseURL: "https://einfachstoisch.at/"
-title: Einfach stoisch
+title: "Einfach stoisch"
 languageCode: "de-at"
 DefaultContentLanguage: "de-at"
-theme: PaperMod
+theme: "PaperMod"
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -21,10 +21,9 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Thomas Mitzka
   description: "Gelassen bleiben durch Philosophie"
-  keywords: [Blog, Philosophie, Stoizismus]
-  author: Thomas Mitzka
+  keywords: ["Blog", "Philosophie", "Stoizismus", "Stoa"]
+  author: "Thomas Mitzka"
   images: ["/images/pillar-cat.webp"] # image for opengraph
   DateFormat: "2. January 2006"
   defaultTheme: auto # dark, light
@@ -57,7 +56,6 @@ params:
     favicon16x16: "/images/favicon-16x16.png"
     favicon32x32: "/images/favicon-32x32.png"
     apple_touch_icon: "/images/apple-touch-icon.png"
-    # safari_pinned_tab: "<link / abs url>"
 
   label:
     text: "Einfach stoisch"
