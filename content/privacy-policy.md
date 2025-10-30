@@ -11,11 +11,11 @@ Der Schutz deiner Daten ist mir ein wichtiges Anliegen. Deshalb werden auf
 **einfachstoisch.at** nur die Daten erhoben, die für den Betrieb der Website 
 nötig sind oder die du freiwillig übermittelst.
 
-Verantwortlich für die Datenverarbeitung auf dieser Website:
+Als **Verantwortlicher** für die Datenverarbeitung auf dieser Website bin ich per
+E-Mail erreichbar:
 
-Thomas Mitzka
-
-E-Mail: <tm@thomasmitzka.at>
+Thomas Mitzka  
+<tm@thomasmitzka.at>
 
 --- 
 
@@ -29,9 +29,7 @@ Webhost **Netcup GmbH** übertragen, darunter zum Beispiel:
 - Browser und Betriebssystem
 - Aufgerufene Seiten
 
-Diese Daten werden ausschließlich **für den sicheren Betrieb der Website,
-technische Optimierung und Fehlerbehebung** verwendet. Die Daten werden
-**in der EU gehostet**.
+Diese Daten werden **in der EU gehostet**.
 
 Laut [Angaben von Netcup](https://www.netcup.com/de/kontakt/datenschutzerklaerung)
 werden personenbezogene Log-Dateien **maximal 14 Tage** gespeichert, sofern keine
@@ -55,6 +53,6 @@ ausschließlich um anonyme Daten.
 
 ## 4. Deine Rechte
 
-Du hast jederzeit das Recht auf Auskunft, Berichtigung, Löschung oder
-Einschränkung der Verarbeitung deiner personenbezogenen Daten. Kontaktiere
+Als Website-Besucher hast du jederzeit das Recht auf Auskunft, Berichtigung, Löschung
+oder Einschränkung der Verarbeitung deiner personenbezogenen Daten. Kontaktiere
 mich dazu gerne per E-Mail an <tm@thomasmitzka.at>.
