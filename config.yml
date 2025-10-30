@@ -83,11 +83,11 @@ menu:
       name: "Über"
       url: /ueber/
       weight: 1
-    - identifier: 
+    - identifier: imprint
       name: "Impressum"
       url: /impressum/
       weight: 2
-    - identifier: 
+    - identifier: privacy-policy
       name: "Datenschutz"
       url: /datenschutz/
       weight: 3
