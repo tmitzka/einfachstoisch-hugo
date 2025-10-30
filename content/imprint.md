@@ -9,5 +9,8 @@ summary: Impressum
 Medieninhaber:
 
 Thomas Mitzka  
+
 Wien  
 Österreich
+
+E-Mail: <tm@thomasmitzka.at>
