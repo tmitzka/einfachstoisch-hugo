@@ -1,5 +1,6 @@
 ---
 title: "Über dieses Blog"
+url: "/ueber/"
 ---
 
 Hier schreibe ich, Thomas, über meine Erfahrungen mit dem Stoizismus. Vielleicht kannst 
