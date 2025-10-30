@@ -22,7 +22,7 @@ nötig sind oder die du freiwillig übermittelst.
 
 ## 2. Automatisch erhobene Daten
 
-Beim Besuch von **einfachstoisch.at** werden automatisch bestimmte Daten an den 
+Beim Besuch der Website werden automatisch bestimmte Daten an den 
 Webhost **Netcup GmbH** übertragen, darunter zum Beispiel:
 
 - IP-Adresse
@@ -40,10 +40,10 @@ längere Speicherung (zum Beispiel aus rechtlichen Gründen) erforderlich ist.
 
 ---
 
-## 3. Web-Analyse mit Tinylytics
+## 3. Web-Analyse
 
-Ich verwende **[Tinylytics](https://tinylytics.app)**, um anonymisierte Statistiken über die Nutzung der 
-Website zu erhalten.
+Ich verwende **[Tinylytics](https://tinylytics.app)**, um anonymisierte Statistiken
+über die Nutzung der Website zu erhalten.
 
 - Tinylytics **setzt keine Cookies** und sammelt **keine personenbezogenen Daten**.
 - Die Daten werden **in der EU gehostet**.
