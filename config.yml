@@ -82,7 +82,15 @@ menu:
     - identifier: about
       name: "Über"
       url: /ueber/
-      weight: 5
+      weight: 1
+    - identifier: 
+      name: "Impressum"
+      url: /impressum/
+      weight: 2
+    - identifier: 
+      name: "Datenschutz"
+      url: /datenschutz/
+      weight: 3
     # - identifier: archives
       # name: "Archiv"
       # url: /archives/
@@ -95,10 +103,7 @@ menu:
       # name: "Kategorien"
       # url: /categories/
       # weight: 20
-    - identifier: 
-      name: "Impressum"
-      url: /impressum/
-      weight: 30
+   
 
 permalinks:
   posts: "/blog/:slug/" 
