@@ -2,21 +2,20 @@
 title: "Datenschutzerklärung"
 url: "/datenschutz/"
 summary: "Datenschutzerklärung für einfachstoisch.at"
+ShowToc: true
 ---
-
-**Verantwortlich:**
-
-Thomas Mitzka
-
-E-Mail: <tm@thomasmitzka.at> 
-
---- 
 
 ## 1. Allgemeines zum Datenschutz 
 
 Der Schutz deiner Daten ist mir ein wichtiges Anliegen. Deshalb werden auf 
 **einfachstoisch.at** nur die Daten erhoben, die für den Betrieb der Website 
 nötig sind oder die du freiwillig übermittelst.
+
+Verantwortlich für die Datenverarbeitung auf dieser Website:
+
+Thomas Mitzka
+
+E-Mail: <tm@thomasmitzka.at>
 
 --- 
 
@@ -54,7 +53,7 @@ ausschließlich um anonyme Daten.
 
 --- 
 
-## 4. Rechte von Website-Besuchern
+## 4. Deine Rechte
 
 Du hast jederzeit das Recht auf Auskunft, Berichtigung, Löschung oder
 Einschränkung der Verarbeitung deiner personenbezogenen Daten. Kontaktiere
