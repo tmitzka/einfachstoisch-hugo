@@ -83,6 +83,9 @@ blockquote p {
   margin: 2.2rem 0 !important;
 }
 
+/* Table of Contents */
+.toc { font-family: "Alegreya Sans"; }
+
 /* Tags */
 .post-tags li a, .terms-tags li a { font-family: "Alegreya Sans"; }
 .post-tags li a { font-size: 1.1rem; }
