@@ -21,7 +21,7 @@ Thomas Mitzka
 
 ## 2. Automatisch erhobene Daten
 
-Beim Besuch der Website werden automatisch bestimmte Daten an den 
+Beim Besuch der Website werden automatisch bestimmte Daten an den
 Webhost **Netcup GmbH** übertragen, darunter zum Beispiel:
 
 - IP-Adresse
@@ -39,15 +39,12 @@ längere Speicherung (zum Beispiel aus rechtlichen Gründen) erforderlich ist.
 
 ## 3. Web-Analyse
 
-Ich verwende **[Tinylytics](https://tinylytics.app)**, um anonymisierte Statistiken
-über die Nutzung der Website zu erhalten.
+Ich verwende **[Simple Analytics](https://www.simpleanalytics.com)**, um anonymisierte
+Statistiken über die Nutzung der Website zu erhalten.
 
-- Tinylytics **setzt keine Cookies** und sammelt **keine personenbezogenen Daten**.
-- Die Daten werden **in der EU gehostet**.
-- Zweck der Analyse: Verbesserung der Website und Optimierung der Inhalte.
-
-Besucher sind über die Analyse-Daten nicht identifizierbar. Es handelt sich 
-ausschließlich um anonyme Daten.
+Simple Analytics **setzt keine Cookies** und sammelt **keine personenbezogenen Daten**.
+Die Daten werden **in der EU gehostet**. Zweck der Analyse: Verbesserung der Website und
+Optimierung der Inhalte.
 
 --- 
 
