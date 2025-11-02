@@ -60,6 +60,9 @@ body, p {
   line-height: 1.6;
 }
 
+/* Slogan on home page */
+.home-info p { font-family: "Alegreya Sans", sans-serif; }
+
 /* Reduce maximum width in blog entries */
 .post-content > * {
   max-width: 60ch;
@@ -72,27 +75,30 @@ h1.post-title, .page-header h1 { font-size: clamp(1.7rem, 1.4rem + 1.5vw, 2.1rem
 .post-content h3 { font-size: clamp(1.2rem, 1.1rem + 0.6vw, 1.4rem); }
 
 /* Navigation links, meta data */
-#menu li a { font-size: 1.2rem; font-family: "Alegreya Sans"; }
-.entry-footer span, .post-meta span, .footer span { font-size: 1.1rem; font-family: "Alegreya Sans" }
+#menu li a { font-size: 1.2rem; font-family: "Alegreya Sans", sans-serif; }
+.entry-footer span, .post-meta span, .footer span {
+  font-size: 1.1rem;
+  font-family: "Alegreya Sans", sans-serif;
+}
 
 /* Blockquotes */
 blockquote p {
   font-size: clamp(1.25rem, 1.1rem + 1.0vw, 1.5rem);
-  font-family: "Alegreya Sans";
+  font-family: "Alegreya Sans", sans-serif;
   padding: 0.3rem 0;
   margin: 2.2rem 0 !important;
 }
 
 /* Table of Contents */
-.toc { font-family: "Alegreya Sans"; }
+.toc { font-family: "Alegreya Sans", sans-serif; }
 
 /* Tags */
-.post-tags li a, .terms-tags li a { font-family: "Alegreya Sans"; }
+.post-tags li a, .terms-tags li a { font-family: "Alegreya Sans", sans-serif; }
 .post-tags li a { font-size: 1.1rem; }
 
 /* Archive */
 .archive-entry-title { font-size: 1.3rem; }
-.archive-meta span { font-size: 1.1rem; font-family: "Alegreya Sans" }
+.archive-meta span { font-size: 1.1rem; font-family: "Alegreya Sans", sans-serif; }
 
 /* Hide post summary */
 .post-description { display: none; }
