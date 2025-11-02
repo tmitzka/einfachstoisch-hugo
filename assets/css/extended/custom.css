@@ -75,9 +75,8 @@ h1.post-title, .page-header h1 { font-size: clamp(1.7rem, 1.4rem + 1.5vw, 2.1rem
 .post-content h3 { font-size: clamp(1.2rem, 1.1rem + 0.6vw, 1.4rem); }
 
 /* Navigation links, meta data */
-#menu li a { font-size: 1.2rem; font-family: "Alegreya Sans", sans-serif; }
-.entry-footer span, .post-meta span, .footer span {
-  font-size: 1.1rem;
+#menu li a, .entry-footer span, .post-meta span, .footer span {
+  font-size: 1.15rem;
   font-family: "Alegreya Sans", sans-serif;
 }
 
