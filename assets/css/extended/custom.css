@@ -54,14 +54,19 @@ body, p {
   font-size: clamp(1.1rem, 1.1rem + 0.4vw, 1.3rem);
 }
 
-/* Text on home page and tag pages */
-.entry-content p {
-  font-size: clamp(1rem, 1rem + 0.3vw, 1.26rem);
+/* Short entries for blog posts and tags */
+.post-entry .entry-header h2 { font-size: clamp(1.3rem, 1.2rem + 0.4vw, 1.6rem); }
+.post-entry .entry-content p {
+  font-size: clamp(1.15rem, 1rem + 0.5vw, 1.25rem);
   line-height: 1.6;
 }
+.post-entry .entry-footer span { font-size: clamp(1rem, 1rem + 0.2vw, 1.1rem); }
 
-/* Slogan on home page */
-.home-info p { font-family: "Alegreya Sans", sans-serif; }
+/* Styling for home page, including title and subtitle */
+.home-info .entry-header h1 { font-size: clamp(1.3rem, 1.7rem + 0.4vw, 2.2rem); }
+.home-info .entry-content p { font-family: "Alegreya Sans", sans-serif; }
+@media (max-width: 768px) { .home-info { margin-bottom: 0; }
+}
 
 /* Reduce maximum width in blog entries */
 .post-content > * {
